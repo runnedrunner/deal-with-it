@@ -6,5 +6,6 @@ $(function() {
 })
 
 function dealWithIt() {
-    $("#glasses").animate({top: "+=250"}, 250)
+  $("#glasses").animate({top: "+=250"}, 250);
+  button.
 }
