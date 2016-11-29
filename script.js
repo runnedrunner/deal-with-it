@@ -9,7 +9,7 @@ function dealWithIt() {
   if (counter) {
     $("#glasses").animate({top: "+=250"}, 250);
     counter = false;
-    
+    button.html("Reset");
   }
   else {
     $("#glasses").animate({top: "-=250"}, 1);
