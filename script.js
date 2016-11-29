@@ -1,10 +1,10 @@
-var button = $()
+var button = $(".deal-with-it-button")
 
 $(function() {
-  button.click(dealWithIt)
+  button.click(dealWithIt);
   console.log("HI!");
 })
 
 function dealWithIt() {
-    $("#glasses").animate({}, 1500)
+    $("#glasses").animate({left: "+=50"}, 1500)
 }
