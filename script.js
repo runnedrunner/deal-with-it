@@ -7,12 +7,12 @@ $(function() {
 
 function dealWithIt() {
   if (counter) {
-    $("#glasses").animate({top: "+=340"}, 250);
+    $("#glasses").animate({top: "+=350"}, 250);
     counter = false;
     button.html("Reset");
   }
   else {
-    $("#glasses").animate({top: "-=250"}, 1);
+    $("#glasses").animate({top: "-=350"}, 1);
     counter = true;
   }
 }
