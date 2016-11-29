@@ -8,6 +8,9 @@ $(function() {
 function dealWithIt() {
   if (counter) {
     $("#glasses").animate({top: "+=250"}, 250);
-
-  
+    counter = false;
+  }
+  else {
+    $("#glasses").animate({top: "-=250"}, 250);
+  }
 }
