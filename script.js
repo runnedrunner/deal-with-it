@@ -1,11 +1,13 @@
 var button = $(".deal-with-it-button")
-
+var counter = true;
 $(function() {
   button.click(dealWithIt);
   console.log("HI!");
 })
 
 function dealWithIt() {
-  $("#glasses").animate({top: "+=250"}, 250);
-  button.
+  if (counter) {
+    $("#glasses").animate({top: "+=250"}, 250);
+
+  
 }
